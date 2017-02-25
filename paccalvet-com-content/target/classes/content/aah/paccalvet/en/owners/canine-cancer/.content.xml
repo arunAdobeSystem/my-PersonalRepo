@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="/etc/cloudservices/sitecatalyst/abbott-sitecatalyst-configuration/abbott-sitecatalyst-framework/aah-paccalvet-framework"
+        cq:lastModified="{Date}2014-04-24T13:49:21.332-04:00"
+        cq:lastModifiedBy="churydx"
+        cq:template="/apps/aah/paccalVet/templates/twoColumnTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Canine cancer"
+        jcr:uuid="4d086ab8-df86-43b8-8974-2cd7c7813e75"
+        sling:resourceType="aah/paccalVet/components/pages/twoColumn"
+        commodityNumber="AAHW-2108 Feb 2014">
+        <left
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <forpetsleftnav
+                jcr:created="{Date}2013-11-06T20:39:33.838-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-11-06T20:51:39.912-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/ForPetsLeftNav"
+                petPath="/content/aah/paccalvet/en/owners"
+                petTitle="For dog owners"
+                vetPath="/content/aah/paccalvet/en/login"
+                vetTitle="For veterinary oncologists"/>
+        </left>
+        <center
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <mainheading
+                jcr:created="{Date}2013-11-06T20:42:00.766-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-11-06T20:42:13.738-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/mainHeading"
+                heading="Canine cancer"/>
+            <headline
+                jcr:created="{Date}2013-11-19T16:13:37.756-05:00"
+                jcr:createdBy="kiransr"
+                jcr:lastModified="{Date}2013-11-19T16:14:07.453-05:00"
+                jcr:lastModifiedBy="kiransr"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/headLine"
+                heading="Learning your dog has cancer can be heartbreaking. But there is also hope."/>
+            <textpanel_0
+                jcr:created="{Date}2013-11-19T16:14:10.372-05:00"
+                jcr:createdBy="kiransr"
+                jcr:lastModified="{Date}2014-03-26T20:55:03.750-04:00"
+                jcr:lastModifiedBy="churydx"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textpanel"
+                sectioncopy="&lt;p>She’s a true friend. He’s part of the family. Finding out your dog has cancer can leave you feeling upset, overwhelmed, and worried. But a diagnosis of cancer does not necessarily mean your dog is now facing the end of life.&lt;/p>&#xa;&lt;p>Just as human cancer treatment has come a long way, so has cancer treatment for dogs. Veterinarians treat many animals with chronic diseases that are never cured (diabetes, chronic kidney disease, heart disease), and cancer is another chronic disease.&lt;/p>&#xa;&lt;p>You should know that today’s canine cancer treatments may help extend the quality and duration of your pet’s life. Learning about the treatment options that are available is the best way to make the choices that are right for you and your dog.&lt;/p>&#xa;&lt;p>&lt;a href=&quot;/content/aah/paccalvet/en/owners/treatment-options.html&quot;>&lt;b>Treatment Options&amp;gt;&lt;/b>&lt;/a>&lt;/p>&#xa;"/>
+        </center>
+        <bottom
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+        <image
+            jcr:lastModified="{Date}2014-03-26T20:11:07.604-04:00"
+            jcr:lastModifiedBy="churydx"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <analytics
+            cq:lastAttempt="1398343862113"
+            cq:lastAttemptDate="2014-04-23"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/analytics/components/sitecatalyst">
+            <pollconfig/>
+        </analytics>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/aah/paccalvet"
+        cq:lastModified="{Date}2014-04-24T12:58:30.012-04:00"
+        cq:lastModifiedBy="churydx"
+        cq:template="/apps/aah/paccalVet/templates/vetTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Taxanes in Humans"
+        jcr:uuid="4f5ec821-9add-4265-892e-d82e7cebf809"
+        sling:resourceType="aah/paccalVet/components/pages/vetTemplate"
+        commodityNumber="AAHW-2103 Feb 2014">
+        <center
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <headline
+                jcr:created="{Date}2014-03-26T16:07:57.084+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-03-26T16:08:02.998+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/headLine"
+                heading="A proven treatment widely prescribed over the past 20 years for a variety of human cancer types."/>
+            <textpanel
+                jcr:created="{Date}2014-03-26T16:08:24.580+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-24T12:58:30.008-04:00"
+                jcr:lastModifiedBy="churydx"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textpanel"
+                sectioncopy="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Taxane-class chemotherapy drugs, such as paclitaxel, are among the most widely prescribed human cancer treatments. They have been used successfully for more than 20 years to treat a wide range of cancers in humans, Including:&lt;/p>&#xa;&lt;ul style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>&#xa;&lt;li>Breast cancer&lt;/li>&#xa;&lt;li>Squamous cell carcinoma (SCC) of the head and neck cancer&lt;/li>&#xa;&lt;li>Hormone refractory prostate cancer&lt;/li>&#xa;&lt;li>Gastric adrenocarcinoma&lt;/li>&#xa;&lt;li>AIDS-related Kaposi’s sarcoma&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>FDA has granted Paccal Vet-CA1 reasonable expectation of effectiveness based on the therapeutic activity observed in humans and on evidence from studies in dogs with SCC and mammary carcinoma. &amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Paccal Vet-CA1 is&amp;nbsp;indicated for nonresectable stage III, IV or V mammary carcinoma in dogs that have not received previous chemotherapy or radiotherapy and resectable and nonresectable squamous cell carcinoma in dogs that have not received previous chemotherapy or radiotherapy.&lt;/p>&#xa;&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>&lt;strong>CAUTION:&lt;/strong>&amp;nbsp;Federal (USA) law restricts this drug to use by or on the order of a licensed veterinarian.&amp;nbsp;&lt;b>It is a violation of Federal Law to use this product other than directed in the labeling&lt;/b>.&lt;/p>&#xa;&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>2 large-scale, blinded, randomized, placebo-controlled, global, pivotal clinical trials to demonstrate efficacy in both canine SCC and canine mammary carcinoma are currently being conducted.&lt;/p>&#xa;&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>&amp;nbsp;&lt;/p>&#xa;"/>
+        </center>
+        <image
+            jcr:lastModified="{Date}2014-03-26T21:11:33.002-04:00"
+            jcr:lastModifiedBy="churydx"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

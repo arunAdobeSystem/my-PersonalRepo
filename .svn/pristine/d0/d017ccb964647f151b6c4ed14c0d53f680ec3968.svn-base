@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-04-27T09:34:42.036+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2014-03-26T09:37:54.745+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/libs/wcm/core/templates/designpage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="paccalVetProject"
+        jcr:uuid="9caae88a-e943-416c-a730-d15d25bec1fa"
+        sling:resourceType="wcm/core/components/designer">
+        <homepage jcr:primaryType="nt:unstructured">
+            <paccalVet-header
+                jcr:lastModified="{Date}2013-11-14T13:38:42.756-05:00"
+                jcr:lastModifiedBy="kiransr"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/header"
+                leftlogo="/content/dam/aah/PaccalVet/headerTitle.png"
+                leftLogoText="PacclVet"
+                leftpage="/content/aah/paccalvet/en/index"
+                rightlogo="/content/dam/aah/PaccalVet/abbotLogo.png"
+                rightLogoText="Abbott - A Promise for Life"
+                rightLogoUrl="http://www.abbott.com"/>
+            <bottom
+                jcr:lastModified="{Date}2013-09-30T17:33:37.686+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/foundation/components/text,group:PaccalVet,/apps/onlinePresence/components/content/news/newsDetailLayout]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </bottom>
+            <footer
+                jcr:lastModified="{Date}2014-03-04T20:05:45.096+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/footer"
+                forpet="For Dog Owners"
+                forvet="For Veterinary Oncologists"
+                fpara="Unless otherwise specified, all product names appearing in this Internet site are trademarks of Abbott Laboratories, its subsidiaries or affiliates. No use of any Abbott trademark, trade name, or trade dress in this site may be made without the prior written authorization of Abbott Laboratories, except to identify the product or services of the company.&#xd;&#xa;© 2014 Abbott Laborataries Abbott Park, IL 60064&#xd;&#xa;"
+                legalfields="0"
+                paybillsfields="0"
+                petLink="/content/aah/paccalvet/en/owners"
+                pi="Prescribing Information"
+                piLink="#"
+                pp="Privacy Policy"
+                ppLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00029.htm"
+                prepaidfields="0"
+                quicklinksfields="0"
+                tou="Terms of Use "
+                touLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00014.htm"
+                vetLink="[/content/paccalVet/home]"
+                vLink="/content/aah/paccalvet/en/vet/clinical-data"/>
+            <center
+                jcr:lastModified="{Date}2013-11-17T13:03:46.068+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:PaccalVet,group:PaccalVet Login]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </center>
+            <left
+                jcr:lastModified="{Date}2013-10-08T14:33:45.342+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:PaccalVet">
+                <section jcr:primaryType="nt:unstructured"/>
+            </left>
+            <left_nav
+                jcr:lastModified="{Date}2013-11-11T16:51:38.637+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:PaccalVet">
+                <section jcr:primaryType="nt:unstructured"/>
+            </left_nav>
+            <clientcontext
+                jcr:lastModified="{Date}2014-04-25T13:33:54.234+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/personalization/components/clientcontext"
+                path="/etc/clientcontext/default"
+                segmentPath="/etc/segmentation"/>
+        </homepage>
+        <oneColumn jcr:primaryType="nt:unstructured">
+            <paccalVet-header
+                jcr:lastModified="{Date}2013-10-18T08:32:17.253+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/header"
+                leftlogo="/content/dam/aah/PaccalVet/headerTitle.png"
+                leftpage="/content/aah/paccalvet/en/vet/index"
+                rightlogo="/content/dam/aah/PaccalVet/abbotLogo.png"
+                rightLogoUrl="/content/aah/paccalvet/en/vet/index"/>
+            <center
+                jcr:lastModified="{Date}2013-11-17T13:10:57.774+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:PaccalVet,group:PaccalVet Login]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </center>
+            <footer
+                jcr:lastModified="{Date}2014-03-04T20:07:20.350+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/footer"
+                forpet="For Dog Owners"
+                forvet="For Veterinary Oncologists"
+                fpara="Unless otherwise specified, all product names appearing in this Internet site are trademarks of Abbott Laboratories, its subsidiaries or affiliates. No use of any Abbott trademark, trade name, or trade dress in this site may be made without the prior written authorization of Abbott Laboratories, except to identify the product or services of the company.&#xd;&#xa;© 2014 Abbott Laborataries Abbott Park, IL 60064&#xd;&#xa;"
+                legalfields="0"
+                paybillsfields="0"
+                petLink="/content/aah/paccalvet/en/owners"
+                pi="Prescribing Information"
+                piLink="#"
+                pp="Privacy Policy"
+                ppLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00029.htm"
+                prepaidfields="0"
+                quicklinksfields="0"
+                tou="Terms of Use "
+                touLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00014.htm"
+                vetLink="[/content/paccalVet/home]"
+                vLink="/content/aah/paccalvet/en/vet/clinical-data"/>
+            <clientcontext
+                jcr:lastModified="{Date}2014-04-25T13:37:52.980+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/personalization/components/clientcontext"
+                path="/etc/clientcontext/default"
+                segmentPath="/etc/segmentation"/>
+        </oneColumn>
+        <twoColumn jcr:primaryType="nt:unstructured">
+            <footer
+                jcr:lastModified="{Date}2014-02-18T14:35:09.173-05:00"
+                jcr:lastModifiedBy="gadrebp"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/footer"
+                che="true"
+                forpet="For Dog Owners"
+                forvet="For Veterinary Oncologists"
+                fpara="Unless otherwise specified, all product names appearing in this internet site are trademarks of Abbott Laboratories, its subsidiaries or affiliates. No use of any Abbott trademark, trade name, or trade dress in this site may be made without the prior written authorization of Abbott Laboratories, except to identify the product or services of the company.&#xa;&#xa;&lt;p>© 2014 Abbott Laboratories Abbott Park, IL 60064&lt;/p>&#xa;"
+                pcheck="true"
+                petLink="/content/aah/paccalvet/en/owners"
+                pi="Prescribing Information"
+                piLink="#"
+                pp="Privacy Policy"
+                ppLink="http://www.abbott.com/index.htm"
+                tou="Terms Of Use"
+                touLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00014.htm"
+                twol="true"
+                vLink="/content/aah/paccalvet/en/vet/clinical-data"/>
+            <paccalVet-header
+                jcr:lastModified="{Date}2013-12-20T20:53:35.023+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/header"
+                leftlogo="/content/dam/aah/PaccalVet/headerTitle.png"
+                leftLogoText="Left Logo"
+                leftpage="/content/aah/paccalvet/en/vet/index"
+                lefturl="/content/aah/paccalvet"
+                rightcheck="true"
+                rightlogo="/content/dam/aah/PaccalVet/abbotLogo.png"
+                rightLogoText="Right"
+                rightLogoUrl="/content/aah/paccalvet/en/index"/>
+            <left
+                jcr:lastModified="{Date}2013-11-02T09:10:42.627+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:PaccalVet">
+                <section jcr:primaryType="nt:unstructured"/>
+            </left>
+            <center
+                jcr:lastModified="{Date}2014-03-26T07:47:10.965+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/foundation/components/form/link,group:PaccalVet]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </center>
+            <bottom
+                jcr:lastModified="{Date}2013-11-14T18:16:02.839-05:00"
+                jcr:lastModifiedBy="kiransr"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:PaccalVet">
+                <section jcr:primaryType="nt:unstructured"/>
+            </bottom>
+            <clientcontext
+                jcr:lastModified="{Date}2014-04-25T13:37:31.875+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/personalization/components/clientcontext"
+                path="/etc/clientcontext/default"
+                segmentPath="/etc/segmentation"/>
+        </twoColumn>
+        <vetTemplate
+            jcr:primaryType="nt:unstructured"
+            loginPage="/content/aah/paccalvet/&lt;language>/login">
+            <paccalVet-header
+                jcr:lastModified="{Date}2013-11-25T12:16:19.515+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/vetHeader"
+                leftlogo="/content/dam/aah/paccalvet/images/headerTitle.png"
+                rightcheck="true"
+                rightlogo="/content/dam/aah/paccalvet/images/abbotLogo.png"
+                rightLogoText="Abbott"
+                rightLogoUrl="https://www.google.co.in/">
+                <userinfo
+                    jcr:lastModified="{Date}2014-03-20T12:14:01.881+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aah/paccalVet/components/base/userinfo"
+                    loginPage="/content/aah/paccalvet/en/vet/login"
+                    profilePage="/content/aah/paccalvet/en/vet/my-profile"
+                    signupPage="/content/aah/paccalvet/en/vet/registration"/>
+            </paccalVet-header>
+            <footer
+                jcr:lastModified="{Date}2014-03-04T13:53:23.544+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/footer"
+                forpet="For Dog Owners"
+                forvet="For Veterinary Oncologists"
+                fpara="Unless otherwise specified, all product names appearing in this internet site are trademarks of Abbott Laboratories, its subsidiaries or affiliates. No use of any Abbott trademark, trade name, or trade dress in this site may be made without the prior written authorization of Abbott Laboratories, except to identify the product or services of the company.&#xa;© 2014 Abbott Laboratories Abbott Park, IL 60064 "
+                petLink="/content/aah/paccalvet/en/owners"
+                pi="Prescribing Information"
+                piLink="/content/aah/paccalvet/en/owners"
+                pp="Privacy Policy"
+                ppLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00029.htm"
+                pwol="true"
+                tou="Terms Of Use"
+                touLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00014.htm"
+                twol="true"
+                vLink="/content/aah/paccalvet/en/vet/clinical-data"/>
+            <left
+                jcr:lastModified="{Date}2013-10-08T14:35:10.249+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:PaccalVet">
+                <section jcr:primaryType="nt:unstructured"/>
+            </left>
+            <center
+                jcr:lastModified="{Date}2014-02-18T11:35:22.418-05:00"
+                jcr:lastModifiedBy="gadrebp"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Abbott,group:Common,group:PaccalVet]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </center>
+            <bottom
+                jcr:lastModified="{Date}2013-10-08T14:41:22.297+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="group:PaccalVet">
+                <section jcr:primaryType="nt:unstructured"/>
+            </bottom>
+            <clientcontext
+                jcr:lastModified="{Date}2014-04-27T09:34:42.032+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/personalization/components/clientcontext"
+                path="/etc/clientcontext/default"
+                segmentPath="/etc/segmentation"/>
+        </vetTemplate>
+        <vetOneColumn
+            jcr:primaryType="nt:unstructured"
+            loginPage="/content/aah/paccalvet/&lt;language>/login">
+            <paccalVet-header
+                jcr:lastModified="{Date}2013-10-08T11:54:07.826+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/header"
+                leftlogo="/content/dam/aah/PaccalVet/headerTitle.png"
+                rightlogo="/content/dam/aah/PaccalVet/abbotLogo.png">
+                <userinfo
+                    jcr:lastModified="{Date}2014-03-13T18:15:58.611+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aah/paccalVet/components/base/userinfo"
+                    loginPage="/content/aah/paccalvet/en/vet/login"
+                    profilePage="/content/aah/paccalvet/en/vet/my-profile"
+                    signupPage="/content/aah/paccalvet/en/vet/login"/>
+            </paccalVet-header>
+            <center
+                jcr:lastModified="{Date}2014-03-26T18:58:52.612+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:PaccalVet,/apps/aah/paccalVet/components/base/changepassword]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </center>
+            <footer
+                jcr:lastModified="{Date}2014-03-05T12:24:38.333+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/footer"
+                forpet="For Dog Owners"
+                forvet="For Veterinary Oncologists"
+                fpara="Unless otherwise specified, all product names appearing in this internet site are trademarks of Abbott Laboratories, its subsidiaries or affiliates. No use of any Abbott trademark, trade name, or trade dress in this site may be made without the prior written authorization of Abbott Laboratories, except to identify the product or services of the company.&#xa;© 2014 Abbott Laboratories Abbott Park, IL 60064"
+                petLink="/content/aah/paccalvet/en/owners"
+                pi="Prescribing Information"
+                piLink="#"
+                pp="Privacy Policy"
+                ppLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00029.htm"
+                pwol="true"
+                tou="Terms Of Use"
+                touLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00014.htm"
+                twol="true"
+                vLink="/content/aah/paccalvet/en/vet/clinical-data"/>
+        </vetOneColumn>
+    </jcr:content>
+    <images/>
+    <clientlib/>
+    <EmailTemplates/>
+</jcr:root>

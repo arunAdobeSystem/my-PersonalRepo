@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>paccalvet-com UI Package</comment>
+<entry key="createdBy">378038</entry>
+<entry key="name">paccalvet-com-ui</entry>
+<entry key="created">2014-05-20T12:53:47.656+0530</entry>
+<entry key="groupId">com.abbott</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">abbott</entry>
+<entry key="description">Maven Multimodule project for paccalvet-com.</entry>
+<entry key="artifactId">paccalvet-com-ui</entry>
+<entry key="path">/etc/packages/abbott/paccalvet-com-ui.zip</entry>
+</properties>

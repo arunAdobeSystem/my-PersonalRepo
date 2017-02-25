@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/aah/paccalvet"
+        cq:lastModified="{Date}2014-04-24T13:36:41.000-04:00"
+        cq:lastModifiedBy="churydx"
+        cq:lastReplicated="{Date}2014-04-03T16:27:40.354-04:00"
+        cq:lastReplicatedBy="churydx"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/aah/paccalVet/templates/vetTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About Paccal Vet-CA1"
+        jcr:uuid="f191415b-f3cf-4b09-9920-a1c9fc03b269"
+        sling:resourceType="aah/paccalVet/components/pages/vetTemplate"
+        commodityNumber="AAHW-2118 Feb 2014">
+        <center
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <headline
+                jcr:created="{Date}2014-03-26T13:46:11.701+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-24T13:36:40.996-04:00"
+                jcr:lastModifiedBy="churydx"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/headLine"
+                heading="Paccal Vet®-CA1: Finally, a Cremophor®-free taxane for dogs."/>
+            <textpanel
+                jcr:created="{Date}2014-03-26T13:46:26.569+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-24T13:32:53.806-04:00"
+                jcr:lastModifiedBy="churydx"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textpanel"
+                sectioncopy="&lt;p>You know that taxane-class chemotherapy drugs are effective. But until now, you’ve had to rely on generic paclitaxel treatments designed for humans. Those human formulations contain the solvent Cremophor EL, which can cause extreme allergic or anaphylactic hypersensitivity reactions in dogs.&lt;sup>1&lt;/sup>.&lt;/p>&#xa;&lt;p>Paccal Vet&lt;sup>®&lt;/sup>-CA1 is the first and only taxane-class drug conditionally approved by the FDA for use in dogs. Unlike generic paclitaxel treatments, Paccal Vet-CA1 does not contain Cremophor EL. So there’s no need for premedication with antihistamines or corticosteroids.&lt;/p>&#xa;"/>
+            <textpanel_0
+                jcr:created="{Date}2014-03-26T13:47:55.471+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-03T16:27:06.442-04:00"
+                jcr:lastModifiedBy="churydx"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textpanel"
+                sectioncopy="&lt;b>Coming soon—Paccal Vet-CA1 is not yet available, but should be shortly. If you have registered for updates, you will be contacted when Paccal Vet-CA1 is ready for order.&lt;/b>"/>
+        </center>
+        <image
+            jcr:lastModified="{Date}2014-04-03T16:27:18.174-04:00"
+            jcr:lastModifiedBy="churydx"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <bottom
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <textpanel
+                jcr:created="{Date}2014-04-24T13:33:57.900-04:00"
+                jcr:createdBy="churydx"
+                jcr:lastModified="{Date}2014-04-24T13:34:53.056-04:00"
+                jcr:lastModifiedBy="churydx"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textpanel"
+                sectioncopy="&lt;p>&lt;strong>References&lt;/strong>&lt;/p>&#xa;&lt;p>&lt;strong>1.&lt;/strong>&amp;nbsp;Poirier VJ, Hershey AE, Burgess KE, Phillips B, Turek MM, Forrest LJ, et al. Efficacy and toxicity of paclitaxel (taxol) for the treatment of canine malignant tumors.&amp;nbsp;&lt;i>J Vet Intern Med&lt;/i>. 2004;18:219-222.&lt;/p>&#xa;&lt;p>Cremophor is a registered trademark BASF.&lt;/p>&#xa;"/>
+        </bottom>
+    </jcr:content>
+</jcr:root>

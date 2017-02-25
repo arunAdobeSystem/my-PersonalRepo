@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-03-27T17:56:19.409-04:00"
+        cq:lastModifiedBy="churydx"
+        cq:template="/apps/aah/paccalVet/templates/vetTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Resources"
+        jcr:uuid="d22cfd04-e4bf-4701-89cd-a6e5cff15ac3"
+        sling:resourceType="aah/paccalVet/components/pages/vetTemplate"
+        commodityNumber="AAHW-2117 Feb 2014">
+        <center
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <headline
+                jcr:created="{Date}2013-11-25T22:15:44.463-05:00"
+                jcr:createdBy="kiransr"
+                jcr:lastModified="{Date}2013-11-25T22:27:26.183-05:00"
+                jcr:lastModifiedBy="kiransr"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/headLine"
+                heading="Helpful resources for you and your patients."/>
+            <textpanel
+                jcr:created="{Date}2013-11-25T22:17:32.372-05:00"
+                jcr:createdBy="kiransr"
+                jcr:lastModified="{Date}2014-03-27T17:56:19.397-04:00"
+                jcr:lastModifiedBy="churydx"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textpanel"
+                sectioncopy="&lt;p>At Abbott Animal Health, we are committed to partnering with you to provide optimal care to your patients and their families during treatment.&lt;/p>&#xa;&lt;p>We hope the resources below will assist your efforts. Check this page often for updates or register to receive e-mail alerts.&lt;/p>&#xa;&lt;p>&lt;strong>&lt;u>&lt;a href=&quot;/content/dam/aah/paccalvet/docs/AAH_PAC-2051_Paccal_PI_FINAL_3%200.pdf&quot;>Prescribing Information&lt;/a>&lt;/u>&lt;/strong>&lt;/p>&#xa;"/>
+            <textandlink_0
+                jcr:created="{Date}2013-11-25T22:28:57.556-05:00"
+                jcr:createdBy="kiransr"
+                jcr:lastModified="{Date}2013-11-25T22:29:13.925-05:00"
+                jcr:lastModifiedBy="kiransr"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textAndLink"
+                link="#"
+                newWindow="true"
+                text="Customer Information Sheet"/>
+        </center>
+        <image
+            jcr:lastModified="{Date}2014-03-27T11:01:54.608-04:00"
+            jcr:lastModifiedBy="churydx"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

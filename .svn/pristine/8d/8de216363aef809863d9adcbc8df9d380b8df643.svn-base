@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- ====================================================================== --> 
+    <!-- P A R E N T P R O J E C T D E S C R I P T I O N -->
+    <!-- ====================================================================== -->
+    <parent>
+        <groupId>com.abbott</groupId>
+        <artifactId>paccalvet-com</artifactId>
+        <version>1.0-SNAPSHOT</version>  
+    </parent>
+
+    <!-- ====================================================================== -->
+    <!-- P R O J E C T D E S C R I P T I O N -->
+    <!-- ====================================================================== -->
+
+    <artifactId>paccalvet-com-core</artifactId>
+    <packaging>bundle</packaging>
+    <name>paccalvet-com core</name>
+
+    <!-- ====================================================================== -->
+    <!-- B U I L D D E F I N I T I O N -->
+    <!-- ====================================================================== -->
+    <build>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-scr-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>generate-scr-descriptor</id>
+                        <goals>
+                            <goal>scr</goal>
+                        </goals>   
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-SymbolicName>com.abbott.paccalvet-com-core</Bundle-SymbolicName>
+			          </instructions>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>maven-sling-plugin</artifactId>
+                <configuration>
+                    <slingUrl>http://${crx.host}:${crx.port}/apps/aah/paccalVet/install</slingUrl>
+                    <usePut>true</usePut>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+<dependencies>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.compendium</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr.annotations</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>biz.aQute</groupId>
+            <artifactId>bndlib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.jcr</groupId>
+            <artifactId>jcr</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.sling</groupId>
+            <artifactId>org.apache.sling.api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.sling</groupId>
+            <artifactId>org.apache.sling.jcr.api</artifactId>
+        </dependency>
+		
+			<dependency>
+				<groupId>com.adobe.granite</groupId>
+				<artifactId>com.adobe.granite.crypto</artifactId>
+				<version>0.0.12</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.adobe.granite</groupId>
+				<artifactId>com.adobe.granite.replication.core</artifactId>
+				<version>5.5.14</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.adobe.granite</groupId>
+				<artifactId>com.adobe.granite.xssprotection</artifactId>
+				<version>5.5.14</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.day.commons</groupId>
+				<artifactId>day-commons-text</artifactId>
+				<version>1.1.8</version>
+				<optional>false</optional>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.day.crx</groupId>
+				<artifactId>crx-auth-ldap</artifactId>
+				<version>2.3.15</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.day.crx.sling</groupId>
+				<artifactId>crx-auth-token</artifactId>
+				<version>2.3.15</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-analytics</artifactId>
+				<version>5.5.6</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-commons</artifactId>
+				<version>5.5.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-compat-runmode</artifactId>
+				<version>0.2.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-i18n</artifactId>
+				<version>5.4.2</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-jcrclustersupport</artifactId>
+				<version>0.2.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-rewriter</artifactId>
+				<version>5.5.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-search</artifactId>
+				<version>5.5.4</version>
+				<scope>provided</scope>
+			</dependency>
+            <dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-security</artifactId>
+				<version>5.5.2</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-security-api</artifactId>
+				<version>5.5.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-personalization</artifactId>
+				<version>5.5.2</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq</groupId>
+				<artifactId>cq-tagging</artifactId>
+				<version>5.5.0</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.day.cqse</groupId>
+				<artifactId>cqse-httpservice</artifactId>
+				<version>4.1.24</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.day.cq.dam</groupId>
+				<artifactId>cq-dam-api</artifactId>
+				<version>5.5.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq.dam</groupId>
+				<artifactId>cq-dam-commons</artifactId>
+				<version>5.5.0</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.day.cq.wcm</groupId>
+				<artifactId>cq-wcm-api</artifactId>
+				<version>5.5.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq.wcm</groupId>
+				<artifactId>cq-wcm-core</artifactId>
+				<version>5.5.6</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq.wcm</groupId>
+				<artifactId>cq-wcm-foundation</artifactId>
+				<version>5.5.2</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq.wcm</groupId>
+				<artifactId>cq-wcm-taglib</artifactId>
+				<version>5.5.0</version>
+				<optional>false</optional>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq.wcm</groupId>
+				<artifactId>cq-wcm-workflow</artifactId>
+				<version>5.5.0</version>
+				<scope>provided</scope>
+			</dependency>
+				<dependency>
+				<groupId>com.day.cq.workflow</groupId>
+				<artifactId>cq-workflow-api</artifactId>
+				<version>5.5.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq.workflow</groupId>
+				<artifactId>cq-workflow-console</artifactId>
+				<version>5.5.4</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.day.cq.workflow</groupId>
+				<artifactId>cq-workflow-impl</artifactId>
+				<version>5.5.0</version>
+			</dependency>
+
+
+			<!-- Apache Felix Dependencies -->
+			<dependency>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>org.apache.felix.eventadmin</artifactId>
+				<version>1.2.15-R1234752</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>org.apache.felix.scr</artifactId>
+				<version>1.6.1-R1236132</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+        		<groupId>org.apache.commons</groupId>
+        		<artifactId>commons-lang3</artifactId>
+			<version>3.0.1</version>
+        		 <scope>provided</scope>
+     			 </dependency>
+
+
+    </dependencies>
+      
+</project>
+
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="/etc/cloudservices/sitecatalyst/abbott-sitecatalyst-configuration/abbott-sitecatalyst-framework/aah-paccalvet-framework"
+        cq:lastModified="{Date}2014-04-25T11:06:46.903+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2014-04-24T13:54:38.676-04:00"
+        cq:lastReplicatedBy="churydx"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/aah/paccalVet/templates/oneColumnTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        jcr:uuid="2d12337d-4092-4ac4-909c-f45d36f16ee7"
+        sling:resourceType="aah/paccalVet/components/pages/oneColumn"
+        commodityNumber="AAH">
+        <image
+            jcr:lastModified="{Date}2014-03-07T12:20:10.786+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <footerpar
+            jcr:lastModified="{Date}2014-03-07T13:15:09.406+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+            <footer
+                jcr:created="{Date}2014-03-07T13:20:04.590+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-25T11:06:46.895+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/footer"
+                forpet="For Dog Owners"
+                forvet="For Veterinary Oncologists"
+                fpara="Paccal Vet is a registered trademark of Oasmia Pharmaceuticals AB. Unless otherwise specified, all product names appearing in this Internet site are trademarks of Abbott Laboratories, its subsidiaries or affiliates. No use of any Abbott trademark, trade name, or trade dress in this site may be made without the prior written authorization of Abbott Laboratories, except to identify the product or services of the company.&lt;/br>&#xa;© 2014 Abbott Laboratories Abbott Park, IL 60064"
+                petLink="/content/aah/paccalvet/en/owners"
+                pi="Prescribing Information"
+                piLink="/content/dam/aah/paccalvet/docs/PaccalVet-CA1 PAC-2063_PI.pdf"
+                pp="Privacy Policy"
+                ppLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00029.htm"
+                ri="Important Risk Information"
+                rLink="/content/dam/aah/paccalvet/docs/Paccal Vet Risk Information.pdf"
+                tou="Terms of Use"
+                touLink="http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00014.htm"
+                vLink="/content/aah/paccalvet/en/vet"/>
+        </footerpar>
+    </jcr:content>
+    <vet/>
+    <owners/>
+    <index/>
+    <login/>
+    <registration/>
+    <forgot/>
+    <changepassword/>
+</jcr:root>

@@ -1,0 +1,255 @@
+/* CSS Document */
+@charset "utf-8";
+
+/************************************************************************************
+RESET
+*************************************************************************************/
+@import url('reset.css');
+
+
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+header, nav, article, aside, footer, hgroup, section {
+    display: block;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, font, img, ins, kbd, q, samp, small, strong, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, header, nav, article, aside, footer, hgroup, section {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    text-decoration: none;
+}
+html, body {height:100%}
+html {min-width:1000px}
+body {padding: 0;margin:0;font: 13px Arial, Helvetica, sans-serif;/*background:#E5F4FB url(../images/skyBG.png) repeat-x 0 0;*/}
+input, select, textarea {font-family:Arial, Helvetica, sans-serif;font-size:13px;vertical-align:middle;font-weight:normal}
+fieldset {border:0}
+.activeBtn, .inActiveBtn {
+    background-color: #55A51C;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 10px;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.inActiveBtn {
+    background-color: #777777;
+}
+a.activeBtn:hover, a.inActiveBtn:hover {text-decoration: none;}
+a {text-decoration: none;outline: none;color:#55A51C;}
+a:hover {text-decoration: underline;}
+table{table-layout:auto;border-collapse:collapse;display:table;text-align:left;}
+ul{list-style-type:none;}
+p {margin-bottom:10px;line-height:1.429em}
+h1 {font-size:2.857em;line-height:1.2em;font-weight:normal;}
+h1 a {text-decoration:none}
+h2 , h3 {font-size:1em;line-height:1.2em;color:#6bb640;}
+input:focus{outline: 0;}
+/************************************************************************************
+EMBEDDING CUSTOM FONT
+*************************************************************************************/
+@font-face {
+    font-family: 'HelveticaNeueLT45LightRegular';
+    src: url(../fonts/lte50263.eot);
+    src: url(../fonts/lte50263.eot) format('embedded-opentype'),
+         url(../fonts/lte50263.woff) format('woff'),
+         url(../fonts/lte50263.ttf) format('truetype'),
+         url(../fonts/lte50263.svg#HelveticaNeueLT45LightRegular) format('svg');
+}
+@font-face {
+    font-family: 'HelveticaNeueLT45LightItalic';
+    src: url(../fonts/lte50264.eot);
+    src: url(../fonts/lte50264.eot) format('embedded-opentype'),
+         url(../fonts/lte50264.woff) format('woff'),
+         url(../fonts/lte50264.ttf) format('truetype'),
+         url(../fonts/lte50264.svg#HelveticaNeueLT45LightItalic) format('svg');
+}
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+.mainWrapper{width:100%;padding: 0;margin:0;overflow:hidden;font: 11px Arial, Helvetica, sans-serif;color:#999999;}
+.mainWrapper .main{width:975px;height:424px; margin:0 auto;padding: 0 10px 10px;}
+0 10px 10px;
+/************************************************************************************
+HEADER
+*************************************************************************************/
+.mainWrapper .headerWrapper{width:1024px;margin:0 auto;padding:0 10px;}
+header{float: left;width: 830px;margin: 0px auto;overflow: hidden;position:relative;}
+header h1.siteLogo{float:right;}
+header .loginNavigation{width:400px;float:right;margin:0 0 8px;position:absolute;right:0;top:52px;}
+header .loginNavigation li{display:inline;}
+header .loginNavigation li span{padding:0 10px;}
+header .loginNavigation li span.userName{padding:0 0 0 5px;}
+.header-logo{display:block;margin-left:15px !important;}
+/************************************************************************************
+NAVIGATION -  Top navigation, Font Adjust and Search
+*************************************************************************************/
+
+/************************************************************************************
+ASIDE - Left Menu's
+*************************************************************************************/
+.contentWrapper{width:800px;margin:0 30px;float:left;max-height:250px;}
+.contentWrapper aside{width:180px;float:left;}
+.contentWrapper aside nav {padding:6px 0 0;}
+.contentWrapper aside ul li{margin:0 0 3px;display: block;}
+.contentWrapper aside ul.parentNav li{background:url(../images/menuGradient.png);}
+.contentWrapper aside ul li>a{color:#666666;font-size:13px;line-height:2.5em;padding:2px 0 2px 4px;cursor: pointer;text-decoration:none;}
+.contentWrapper aside ul.parentNav li:hover , .contentWrapper aside ul li.activeMenu ,.contentWrapper aside ul.innerNav li.activeMenuItem {background:url(../images/activeMenuGradient.png);}
+.contentWrapper aside ul.parentNav li:hover>a , .contentWrapper aside ul li.activeMenu>a , .contentWrapper aside ul.innerNav li.activeMenuItem>a{color:#6cb33f;}
+/* Sub Navigation */
+.contentWrapper aside ul.innerNav{display: none;}
+.contentWrapper aside ul.innerNav li , .contentWrapper aside ul li.activeMainMenu{background:url(../images/subMenuGradient.png);}
+.contentWrapper aside ul.innerNav li>a {color:#6cb33f;padding:0 0 0 20px;font-size:11px;}
+.contentWrapper aside ul li.activeMainMenu>a{color:#6cb33f;}
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+.mainWrapper h2 {font:26px 'HelveticaNeueLT45LightRegular';margin:0 0 0 10px;}
+.mainWrapper h2 span{display:block;}
+.mainWrapper h2 span.registerEntity{display:inline;}
+.mainWrapper h3{font-size:13px;font-weight:bold;margin:0 0 10px;}
+.mainWrapper article ul{list-style-type:disc;list-style-position:outside;margin:0 0 8px 12px;}
+.mainWrapper article ul li{margin:0 0 5px;}
+.mainWrapper p.instruction{font-weight:bold;}
+.mainWrapper p a{color:#6bb640;font-size:12px;font-weight:bold;}
+
+.innermainWrapper {background: url("../images/skyBG.png") repeat-x scroll 0 0 #E5F4FB;}
+
+.contentWrapper article.rightContentArea{float: right;width: 600px;}
+
+.textpanel {padding-left: 11px;color:#000;font-size: 12px;}
+.subHead {padding: 15px 0 0 11px;}
+.textAndLink {padding-left: 11px;}
+
+.topContentArea{min-height:390px;height:435px;}
+.homeContentArea{background: url(../images/middleArea.png) repeat-x center bottom !important;height:622px;}
+.middleContentArea {width:100%;margin:0 auto;background-color:#ffffff;}
+.middleContentArea .main{/*height:auto;width:980px;*/height: auto; text-align: left; width: 970px;}
+.middleContentArea article section{width:900px;}
+
+.innerContent{width:700px;padding-left: 30px;}
+
+.grassContent{background:#e5f4fb url(../images/middleArea.png) repeat-x center bottom;display:block;height:300px;}
+/* Dog Animation Control */
+.animationControl{background:url(../images/dog.png) no-repeat 65% 0;height:260px; }
+
+
+/************************************************************************************
+FORM FIELDS
+*************************************************************************************/
+.formFields ul{list-style:none;padding:0;margin:0;text-align:right;font-size: 12px;color:#616266;}
+.formFields fieldset {border:none;}
+.formFields label {float:left;width:auto;padding:8px 5px 0 0;font-weight: bold;text-align:left;vertical-align:middle;}
+.formFields input.inputField {width:220px;padding:6px 2px;border:1px solid #d5dde7;color:#5d6672;font-size: 12px;background:#fff;-moz-box-shadow: 0 0 3px #e5e5e5 inset;-webkit-box-shadow: 0 0 3px #e5e5e5 inset;box-shadow: 0 0 3px #e5e5e5 inset;}
+.formFields input.disableField{background:url(../images/menuGradient.png);color:#666666;border:solid 1px #c1c1c1;}
+/************************************************************************************
+BUTTONS
+*************************************************************************************/
+.buttonBottomBlock{margin:5px auto 0;text-align:center;float:right;}
+.buttonBottomBlock input.button , .buttonBottomBlock input.hoverButton , .buttonBlock input.button , .buttonBlock input.hoverButton{border:0;width:auto;-moz-box-shadow: 0 0 0 0;-webkit-box-shadow: 0 0 0 0;box-shadow: 0 0 0 0;font-weight:bold;}
+.buttonBottomBlock input.button , .buttonBlock input.button{background-color: #6bb640;display: block;float: left;height: 34px;text-decoration: none;color: #fff;cursor: default;font-size:14px;padding:0 5px;min-width:95px;}
+.ie7 .buttonBottomBlock input.button , .ie7 .buttonBlock input.button{text-align:center;padding:0 10px 0 0;}
+.buttonBottomBlock input.hoverButton , .buttonBlock input.hoverButton {background-color: #b5d99e;color:#6cb33f;}
+.buttonBottomBlock input.disableButton{background:url(../images/menuGradient.png);color:#666666;}
+.buttonPanel {width: 100%;float: left;margin: 20px 0px 0px;}
+.buttonPanel .buttonBlock {margin: 0px 0px 0px 20px;min-width: 95px;float:right;}
+
+/************************************************************************************
+ERROR BLOCK
+*************************************************************************************/
+.formFields li{position:relative;*position:none;}
+.formFields input.errorField  , .errorField {background:#ffcbcd url(../images/error.png) no-repeat 98% 50%;border:1px solid #ed1c24;}
+/*span.errorMsg{margin:0 5px;font-size:12px;color:#ed1c24;display:none;}*/
+/* Error Message Tooltip */
+.errorMsg{position:absolute;background:url(../images/errorTooltip.png) no-repeat;top:-63px;right:-11px;/*padding:5px;*/width:85%;height:70px;display:none;}
+.errorMsg span{font-size:12px;color:#ed1c24;position: absolute;top: 15px;left: 5px;text-align:left;padding:0 5px;}
+
+.tooltip {display:none;position:absolute;border:1px solid #333;background-color:#161616;border-radius:5px;padding:10px;color:#fff;font-size:12px;}
+/************************************************************************************
+LOGIN SECTION
+*************************************************************************************/
+.loginRegisterContent{width:760px;margin:20px 0 0 15px;float:left;max-height:250px;display:block;}
+.loginRegisterContent > h2 {margin: 0 0 15px;}
+.loginRegisterContent section{background:url(../images/activeMenuGradient.png);padding:18px;min-height:120px;}
+.loginRegisterContent fieldset {margin:0 auto;}
+.ie7 .loginRegisterContent fieldset div.rightContainor{width:355px;float:right;}
+.loginRegisterContent ul{list-style-type:none;}
+.loginRegisterContent ul li{margin:0 0 8px;}
+.loginRegisterContent ul li span{vertical-align:middle;}
+.loginRegisterContent .buttonBottomBlock{position:relative;}
+.loginRegisterContent .buttonBottomBlock input.button{position:absolute;right:0;}
+.loginContainor section , .loginRegisterContent .userAcceptanceControl{width:400px;float:left;display:block;}
+.loginRegisterContent .userAcceptanceControl .termPolicy label{width:103px;}
+.ie9 .loginRegisterContent .userAcceptanceControl .termPolicy label{width:106px;}
+.loginRegisterContent .userAcceptanceControl .termPolicy div{float:left;display:block;}
+.loginRegisterContent .userAcceptanceControl .termPolicy div a{display:inline-block;padding:2px 0 0;color:#616266;font-weight:bold;}
+.loginContainor .buttonBottomBlock input.button{top:5px;}
+.loginContainor .activeLinks{width:200px;}
+.loginContainor .activeLinks a{font-size:13px;font-weight:bold;color:#6cb33f;}
+.loginRegisterContent ul.activeLinks sup {font-size: 11px !important;}
+.loginH2 { font: 26px 'HelveticaNeueLT45LightRegular';margin:  0 0 15px !important;}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+.footerWrapper{margin:0 auto; width:100%;padding:10px;background-color:#ffffff;}
+footer{text-align:center;padding:15px 0;border-top:1px solid #ccc;width:1024px;margin:0 auto;}
+footer ul {margin:0 0 8px;}
+footer ul li{display:inline;}
+footer ul li span{padding:0 10px;}
+footer .footerContainer{padding:0 22px;margin-bottom: 0 !important;}
+.footer{background-color:#ffffff;width:100%;margin:0 auto;font-weight:normal; }
+footer ul li a:link, footer ul li a:active , footer ul li a {
+color: #999999 !important;
+}
+
+.footerText {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.footer-left-part{float:left;width:93px;}
+.footer-right-part{float:left;width:930px;}
+.footerpar{overflow:hidden;background-color:#ffffff;}
+/************************************************************************************
+COMMON CLASSES
+*************************************************************************************/
+.leftContainor{float:left;}
+.rightContainor{float:right;}
+.clear{clear:both;}
+.alignright {text-align:right;}
+.alignleft {text-align:left;}
+.aligncenter {text-align:center;}
+.hide{display:none;}
+.marginBottomNone{margin-bottom:0 !important}
+.marginTopNone{margin-top:0 !important}
+.borderTopNone{ border-top:none;}
+.borderBottomNone{ border-bottom:none;}
+.borderLeftNone{border-right:none !important;}
+.fontBold{ font-weight:bold}
+.textHighlight{font-weight:bold;color:#000066;}
+.registerEntity{display:inline;font-size:20px;}
+.required{background:url(../images/required.png) no-repeat;padding:2px 5px;vertical-align:middle;}
+/* registration page button adjust */
+.padding-adj{padding:18px 18px 50px 18px !important;}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.clearfix{display: inline-block;}
+.clearfix{display: block;}
+
+/************************************************************************************
+PAGE WISE STYLING
+*************************************************************************************/
+/* Page : /vet/unique-formulation.html */
+.vectorSmartObject{background:url(../images/vectorSmart_Object.png) no-repeat 85% 50%;}
+.vectorSmartObject p{width:320px;}
+
+/* Page : /vet/unique-formulation.html */
+.subListing{list-style-type:georgian;}

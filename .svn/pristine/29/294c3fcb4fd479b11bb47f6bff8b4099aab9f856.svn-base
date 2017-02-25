@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Footer  Design Dialog"
+    width="400px"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="For Vet">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <_x0030_1
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Title"
+                        name="./forvet"
+                        xtype="textfield"/>
+                    <_x0030_2
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Link"
+                        name="./vLink"
+                        xtype="pathfield"/>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="For Pet ">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <_x0030_1
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Title"
+                        name="./forpet"
+                        xtype="textfield"/>
+                    <_x0030_2
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Link"
+                        name="./petLink"
+                        xtype="pathfield"/>
+                </items>
+            </tab2>
+            <tab3
+                jcr:primaryType="cq:Panel"
+                title="Prescribing Information ">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <_x0030_1
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Title"
+                        name="./pi"
+                        xtype="textfield"/>
+                    <_x0030_2
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Link"
+                        name="./piLink"
+                        xtype="pathfield"/>
+                </items>
+            </tab3>
+            <tab4
+                jcr:primaryType="cq:Panel"
+                title="Important Risk Information">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <_x0030_1
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Title"
+                        name="./ri"
+                        xtype="textfield"/>
+                    <_x0030_2
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Link"
+                        name="./rLink"
+                        xtype="pathfield"/>
+                </items>
+            </tab4>
+            <tab6
+                jcr:primaryType="cq:Panel"
+                title="Privacy Policy">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <_x0030_1
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Title"
+                        name="./pp"
+                        xtype="textfield"/>
+                    <_x0030_2
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Link"
+                        name="./ppLink"
+                        xtype="textfield"/>
+                    <_x0030_3
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="true"
+                        fieldLabel="Open in new window?"
+                        inputValue="false"
+                        name="./pcheck"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <_x0030_4
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="true"
+                        fieldLabel="Warn on leave?"
+                        inputValue="false"
+                        name="./pwol"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </tab6>
+            <tab7
+                jcr:primaryType="cq:Panel"
+                title="Terms of Use ">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <_x0030_1
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Title"
+                        name="./tou"
+                        xtype="textfield"/>
+                    <_x0030_2
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Link"
+                        name="./touLink"
+                        xtype="pathfield"/>
+                    <_x0030_3
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="true"
+                        fieldLabel="Open in new window?"
+                        inputValue="false"
+                        name="./toucheck"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <_x0030_4
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="true"
+                        fieldLabel="Warn on leave?"
+                        inputValue="false"
+                        name="./twol"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </tab7>
+            <tab8
+                jcr:primaryType="cq:Panel"
+                title="First Paragraph">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <_x0030_1
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="600"
+                        fieldLabel="Disclaimer"
+                        height="200"
+                        name="./fpara"
+                        xtype="textarea"/>
+                </items>
+            </tab8>
+            <tab9
+                jcr:primaryType="cq:Panel"
+                title="Footer Logo">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <_x0030_1
+                        jcr:primaryType="cq:Widget"
+                        boxMaxWidth="500"
+                        fieldLabel="Footer Logo"
+                        name="./fLink"
+                        xtype="pathfield"/>
+                </items>
+            </tab9>
+        </items>
+    </items>
+</jcr:root>

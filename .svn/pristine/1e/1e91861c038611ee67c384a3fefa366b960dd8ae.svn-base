@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aah/paccalVet"/>
+    <filter root="/etc/designs/aah/paccalvet">
+        <exclude pattern="/etc/designs/aah/paccalvet/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/etc/designs/aah/paccalvet/jcr:content/homepage/clientcontext"/>
+    <filter root="/etc/designs/aah/paccalvet/jcr:content/oneColumn/clientcontext"/>
+    <filter root="/etc/designs/aah/paccalvet/jcr:content/twoColumn/clientcontext"/>
+    <filter root="/etc/designs/aah/paccalvet/jcr:content/vetTemplate/clientcontext"/>
+    <filter root="/etc/designs/aah/paccalvet/jcr:content/vetOneColumn/clientcontext"/>    
+    
+</workspaceFilter>

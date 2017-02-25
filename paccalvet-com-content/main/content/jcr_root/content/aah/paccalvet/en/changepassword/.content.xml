@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <thank_you/>
+    <jcr:content
+        cq:designPath="/etc/designs/aah/paccalvet"
+        cq:lastModified="{Date}2014-04-07T15:28:48.314-04:00"
+        cq:lastModifiedBy="churydx"
+        cq:template="/apps/aah/paccalVet/templates/oneColumnTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Change Password"
+        jcr:uuid="d6cf50d5-6c05-44b1-a702-a1a698040326"
+        sling:resourceType="aah/paccalVet/components/pages/oneColumn"
+        commodityNumber="AAHW-2116 Feb 2014"
+        hideInNav="true">
+        <center
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <changepassword
+                jcr:created="{Date}2014-03-26T18:59:00.114+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-03-26T18:59:40.360+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/changepassword"
+                heading="Change Password"
+                redirect="/content/aah/paccalvet/en/changepassword/thank_you"/>
+        </center>
+        <image
+            jcr:lastModified="{Date}2014-04-07T15:28:48.309-04:00"
+            jcr:lastModifiedBy="churydx"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

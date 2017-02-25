@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Content Template for all Vet Pages"
+    jcr:primaryType="cq:Template"
+    jcr:title="PaccalVet - Vet Two Column With Nav"
+    allowedPaths="/content/aah/paccalvet(/.*)?"
+    ranking="{Long}4">
+    <jcr:content
+        cq:designPath="/etc/designs/aah/paccalvet"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="aah/paccalVet/components/pages/vetTemplate"/>
+</jcr:root>

@@ -1,0 +1,9 @@
+Dear ${name},
+
+You have successfully registered. Here is your User detail:
+
+Username: ${username} 
+
+
+Thanks,
+Paccalvet Team

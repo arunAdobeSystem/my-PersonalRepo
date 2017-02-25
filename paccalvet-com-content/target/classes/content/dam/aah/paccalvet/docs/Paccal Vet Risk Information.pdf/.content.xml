@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c65b8da8-f9f7-4234-9c48-0e8a8619093e">
+    <jcr:content
+        cq:name="Paccal Vet Risk Information.pdf"
+        cq:parentPath="/content/dam/aah/paccalvet/docs"
+        jcr:lastModified="{Date}2014-04-28T13:25:09.461+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        restored="{Boolean}true">
+        <metadata
+            dam:Author="Gunderson, Tanya"
+            dam:extracted="{Date}2014-04-25T01:25:15.000+05:30"
+            dam:Producer="Microsoft® Word 2010"
+            dam:sha1="6d65cd14d800cf99214c50cc17174434ceee2f42"
+            dam:size="189391"
+            dc:creator="[Gunderson\, Tanya]"
+            dc:format="application/pdf"
+            dc:modified="{Date}2014-04-25T11:03:36.000+05:30"
+            dc:subject="[null]"
+            jcr:lastModified="{Date}2014-04-28T13:25:03.098+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            pdf:Keywords="null"
+            pdf:Producer="Microsoft® Word 2010"
+            xmp:CreateDate="{Date}2014-04-16T20:12:02.000+05:30"
+            xmp:CreatorTool="Microsoft® Word 2010"
+            xmp:MetadataDate="{Date}2014-04-24T22:25:16.000+05:30"
+            xmp:ModifyDate="{Date}2014-04-24T22:25:16.000+05:30"
+            xmpMM:DocumentID="uuid:34bc53c9-7f85-4f0e-ac85-4dede121593e"
+            xmpMM:InstanceID="uuid:aad414e9-b815-4340-8f25-eec3dd79b5e6"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

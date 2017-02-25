@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-04-24T13:40:20.599-04:00"
+        cq:lastModifiedBy="churydx"
+        cq:template="/apps/aah/paccalVet/templates/twoColumnTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Resources"
+        jcr:uuid="8a3782d8-4b86-4b06-8186-70cdfb0b94b4"
+        sling:resourceType="aah/paccalVet/components/pages/twoColumn"
+        commodityNumber="AAHW-2101 Feb 2014">
+        <center
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <headline
+                jcr:created="{Date}2013-11-25T21:59:10.881-05:00"
+                jcr:createdBy="kiransr"
+                jcr:lastModified="{Date}2013-11-25T21:59:16.147-05:00"
+                jcr:lastModifiedBy="kiransr"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/headLine"
+                heading="Resources that may lend a helping paw."/>
+            <textpanel
+                jcr:created="{Date}2013-11-25T21:59:27.189-05:00"
+                jcr:createdBy="kiransr"
+                jcr:lastModified="{Date}2014-03-26T20:31:53.181-04:00"
+                jcr:lastModifiedBy="churydx"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textpanel"
+                sectioncopy="&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>Caring for a dog with cancer can be challenging, confusing, and overwhelming. And with all the blogs and websites on the Internet, so can finding reliable information you can really count on.&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;&quot;>For the most up-to-date and accurate information about canine cancer care from expert medical professionals, we recommend the following trusted resources. They can even help you find veterinary oncology specialists in your area.&lt;/p>&#xa;"/>
+            <textandlink
+                jcr:created="{Date}2013-11-25T21:59:55.367-05:00"
+                jcr:createdBy="kiransr"
+                jcr:lastModified="{Date}2013-11-26T07:24:16.892-05:00"
+                jcr:lastModifiedBy="pandeak8"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textAndLink"
+                link="http://www.acvim.org/PetOwners.aspx"
+                text="American College of Veterinary Internal Medicine"
+                wol="true"/>
+            <textandlink_0
+                jcr:created="{Date}2013-11-25T22:01:47.354-05:00"
+                jcr:createdBy="kiransr"
+                jcr:lastModified="{Date}2013-11-26T07:24:25.408-05:00"
+                jcr:lastModifiedBy="pandeak8"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/textAndLink"
+                link="http://www.vetcancersociety.org/pet-owners"
+                text="Veterinary Cancer Society"
+                wol="true"/>
+        </center>
+        <image
+            jcr:lastModified="{Date}2014-03-26T20:32:45.715-04:00"
+            jcr:lastModifiedBy="churydx"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <bottom
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+    </jcr:content>
+</jcr:root>

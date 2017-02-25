@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <thank_you/>
+    <jcr:content
+        cq:lastModified="{Date}2014-04-11T17:15:07.466-04:00"
+        cq:lastModifiedBy="churydx"
+        cq:lastReplicated="{Date}2014-04-11T17:15:45.601-04:00"
+        cq:lastReplicatedBy="churydx"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/aah/paccalVet/templates/oneColumnTemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Registration"
+        jcr:uuid="0fefe1e7-947b-4707-a484-b4e5de7df9d3"
+        sling:resourceType="aah/paccalVet/components/pages/oneColumn"
+        commodityNumber="AAHW-2112 Feb 2014"
+        hideInNav="true"
+        termPolicyGroup="on"
+        wcmmode="disabled">
+        <image
+            jcr:lastModified="{Date}2014-03-26T21:25:40.057-04:00"
+            jcr:lastModifiedBy="churydx"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <center
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <register
+                jcr:created="{Date}2013-11-17T13:11:06.575+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-11T17:15:07.461-04:00"
+                jcr:lastModifiedBy="churydx"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aah/paccalVet/components/base/register"
+                address="Clinic Address"
+                city="Clinic City"
+                clinic="Clinic Name"
+                cpassword="Confirm Password"
+                email="Email Address"
+                heading="Register now to enjoy full access to the Paccal Vet®-CA1 site."
+                home="/content/aah/paccalvet/en/vet/clinical-data"
+                intermediatePath="paccalvet"
+                memberOf="paccalvet"
+                name="Name "
+                password="Password"
+                phoneno="Clinic Phone No"
+                redirect="/content/aah/paccalvet/en/registration/thank_you"
+                state="Clinic State"
+                tou="I have read &lt;a href=&quot;http://www.abbott.com/global/url/content/en_US/0:0/general_content/General_Content_00014.htm&quot; target=&quot;_blank&quot;>Terms of Use&lt;/a>"
+                update="Yes I would like to receive updates on the product."
+                zip="Clinic Zip (Postal) Code"/>
+        </center>
+    </jcr:content>
+</jcr:root>

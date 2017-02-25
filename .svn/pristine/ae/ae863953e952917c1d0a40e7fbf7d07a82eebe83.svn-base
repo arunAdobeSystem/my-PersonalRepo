@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="880be00a-17dc-4247-b3ba-8e28a2e0146b">
+    <jcr:content
+        cq:name="PaccalVet-CA1 PAC-2063_PI.pdf"
+        cq:parentPath="/content/dam/aah/paccalvet/docs"
+        jcr:lastModified="{Date}2014-04-28T13:25:12.180+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2014-04-24T22:23:43.000+05:30"
+            dam:Producer="Adobe PDF Library 10.0.1"
+            dam:sha1="193935bc9b93716e26f8d311a6a8a0444795b830"
+            dam:size="106960"
+            dam:Trapped="False"
+            dc:format="application/pdf"
+            dc:modified="{Date}2014-04-25T11:03:41.000+05:30"
+            dc:subject="[null]"
+            jcr:lastModified="{Date}2014-04-25T11:03:41.956+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            pdf:Keywords="null"
+            pdf:Producer="Adobe PDF Library 10.0.1"
+            pdf:Trapped="False"
+            xmp:CreateDate="{Date}2014-04-10T22:45:35.000+05:30"
+            xmp:CreatorTool="Adobe InDesign CS6 (Macintosh)"
+            xmp:MetadataDate="{Date}2014-04-24T22:18:06.000+05:30"
+            xmp:ModifyDate="{Date}2014-04-24T22:18:06.000+05:30"
+            xmpMM:DocumentID="xmp.id:FA7F11740720681180839B2A83570EA6"
+            xmpMM:InstanceID="uuid:c647c6be-c8b3-4330-96dc-ded95da4394f"
+            xmpMM:OriginalDocumentID="xmp.did:03801174072068118F62EF1FFC04B304"
+            xmpMM:RenditionClass="proof:pdf">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:F97F11740720681180839B2A83570EA6"
+                stRef:instanceID="xmp.iid:F97F11740720681180839B2A83570EA6"
+                stRef:originalDocumentID="xmp.did:03801174072068118F62EF1FFC04B304"
+                stRef:renditionClass="default"
+                newRendition="{Boolean}true"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                isXMPArray="{Boolean}true"
+                newRendition="{Boolean}true"
+                xmpArrayType="rdf:Seq">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:changed="/"
+                    stEvt:parameters="from application/x-indesign to application/pdf"
+                    stEvt:softwareAgent="Adobe InDesign CS6 (Macintosh)"
+                    stEvt:when="{Date}2014-04-10T22:45:35.000+05:30"
+                    newRendition="{Boolean}true"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

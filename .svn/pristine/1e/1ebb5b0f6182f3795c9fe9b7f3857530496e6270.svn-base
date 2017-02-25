@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e6e4183e-fde3-4429-a58a-04aa46d56545">
+    <jcr:content
+        cq:lastReplicated="{Date}2014-04-09T17:18:31.123-04:00"
+        cq:lastReplicatedBy="churydx"
+        cq:lastReplicationAction="Activate"
+        cq:name="PAC-2056 Paccal Vet CIS v6.pdf"
+        cq:parentPath="/content/dam/aah/paccalvet/docs"
+        jcr:lastModified="{Date}2014-04-25T11:03:55.568+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        restored="{Boolean}true">
+        <metadata
+            dam:Author="Gunderson, Tanya"
+            dam:extracted="{Date}2014-04-10T02:48:20.000+05:30"
+            dam:Producer="Microsoft® Word 2010"
+            dam:sha1="b211d6a7befe603b051ce28af60ba564f685d967"
+            dam:size="239999"
+            dc:creator="[Gunderson\, Tanya]"
+            dc:format="application/pdf"
+            dc:modified="{Date}2014-04-25T11:03:46.000+05:30"
+            dc:subject="[null]"
+            jcr:lastModified="{Date}2014-04-25T11:03:46.984+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            pdf:Keywords="null"
+            pdf:Producer="Microsoft® Word 2010"
+            xmp:CreateDate="{Date}2014-04-04T00:00:42.000+05:30"
+            xmp:CreatorTool="Microsoft® Word 2010"
+            xmp:MetadataDate="{Date}2014-04-04T00:00:42.000+05:30"
+            xmp:ModifyDate="{Date}2014-04-04T00:00:42.000+05:30"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <renditions/>
+    </jcr:content>
+</jcr:root>

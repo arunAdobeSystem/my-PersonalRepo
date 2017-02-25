@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Text"
+    title="Text"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <redirectTo
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Redirect To"
+            name="./redirectTo"
+            xtype="pathfield"/>
+        <title
+            jcr:primaryType="cq:Widget"
+            fieldDescription="heading"
+            fieldLabel="Enter Title "
+            name="./heading"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastReplicated="{Date}2014-04-09T17:18:27.556-04:00"
+        cq:lastReplicatedBy="churydx"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Docs"/>
+    <AAH_PAC-2051_Paccal_PI_FINAL_3_x0020_0.pdf/>
+    <PAC-2056_x0020_Paccal_x0020_Vet_x0020_CIS_x0020_v6.pdf/>
+    <PaccalVet-CA1_x0020_PAC-2063_PI.pdf/>
+    <Paccal_x0020_Vet_x0020_Risk_x0020_Information.pdf/>
+</jcr:root>
